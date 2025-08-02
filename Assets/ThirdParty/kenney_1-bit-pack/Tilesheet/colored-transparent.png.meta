@@ -3830,50 +3830,6 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: box
-      rect:
-        serializedVersion: 2
-        x: 136
-        y: 255
-        width: 16
-        height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e7483f6c741e1f0a0800000000000000
-      internalID: -6849445859857038210
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Player
-      rect:
-        serializedVersion: 2
-        x: 425
-        y: 357
-        width: 16
-        height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c65c1a8b62744e5fa8c8a8857b3e822
-      internalID: 2073025208
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: DoorClosed
       rect:
         serializedVersion: 2

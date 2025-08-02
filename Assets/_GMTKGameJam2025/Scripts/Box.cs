@@ -11,6 +11,8 @@ public class Box : MonoBehaviour
     Vector3Int _gridPosition;
     public Vector3Int GridPosition => _gridPosition;
 
+    public bool IsInGoal => GetIsInGoal();
+
     public void Initialize()
     {
         var spawnPosition = new Vector3Int((int)transform.position.x, (int)transform.position.y, (int)transform.position.z);
@@ -40,5 +42,10 @@ public class Box : MonoBehaviour
 
         _gridPosition = nextPosition;
         return transform.DOMove(nextPosition, moveSpeed);
+    }
+
+    bool GetIsInGoal()
+    {
+        return gridManager.IsGoal(_gridPosition);
     }
 }

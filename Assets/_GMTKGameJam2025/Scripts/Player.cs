@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -14,6 +15,8 @@ public class Player : MonoBehaviour
     InputAction _moveAction;
     Vector3Int _gridPosition;
 
+    bool _completedTriggered;
+
     void Start()
     {
         _moveAction = InputSystem.actions.FindAction("Move");
@@ -24,6 +27,8 @@ public class Player : MonoBehaviour
     {
         _gridPosition = startingPosition;
         transform.position = startingPosition;
+
+        _completedTriggered = false;
     }
 
     void Move(InputAction.CallbackContext ctx)
@@ -77,14 +82,41 @@ public class Player : MonoBehaviour
             ? transform.DOMove(nextPosition, moveSpeed)
             : box.Move(direction);
 
+        if (box == null)
+        {
+            AudioManager.instance.PlayWalkSfx();
+        }
+        else if (box != null && tween != null)
+        {
+            AudioManager.instance.PlayPushSfx();
+        }
+
         _gridPosition = box == null ? nextPosition : _gridPosition;
         _isMoving = tween != null;
-        tween?.OnComplete(MovementCompletedHandler);
+        tween?.OnComplete(() =>
+        {
+            if (box != null && box.IsInGoal)
+            {
+                AudioManager.instance.PlayInGoalSfx();
+            }
+
+            bool isCompleted = gridManager.CheckCompleted();
+
+            if (isCompleted && !_completedTriggered)
+            {
+                _completedTriggered = true;
+                StartCoroutine(WaitToMove());
+            }
+            else
+            {
+                _isMoving = false;
+            }
+        });
     }
 
-    void MovementCompletedHandler()
+    IEnumerator WaitToMove()
     {
-        gridManager.CheckCompleted();
+        yield return new WaitForSeconds(1.0f);
         _isMoving = false;
     }
 }

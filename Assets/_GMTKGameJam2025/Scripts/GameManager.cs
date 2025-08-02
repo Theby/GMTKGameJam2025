@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -7,6 +8,9 @@ public class GameManager : MonoBehaviour
     public List<Stage> stages;
     public GridManager gridManager;
     public Player player;
+    public ScreenShake screenShake;
+    public float shakeDuration;
+    public float shakeMagnitude;
 
     int _currentStageIndex = 0;
     int _currentLoopIndex = 0;
@@ -15,6 +19,9 @@ public class GameManager : MonoBehaviour
 
     void Awake()
     {
+        AudioManager.instance.Initialize();
+        AudioManager.instance.PlayGameMusic();
+
         ShowStage(_currentStageIndex, _currentLoopIndex);
 
         player.OnExitRoom += ExitRoomHandler;
@@ -55,12 +62,28 @@ public class GameManager : MonoBehaviour
 
     void GridCompletedHandler()
     {
+        StartCoroutine(StageCompletedRoutine());
+    }
+
+    IEnumerator StageCompletedRoutine()
+    {
+        yield return new WaitForSeconds(0.3f);
+
+        AudioManager.instance.PlayLevelCompleteSfx();
+
+        yield return new WaitForSeconds(0.6f);
+
         var stage = stages[_currentStageIndex];
         stage.exitDoor.SetOpenState(true);
+
+        AudioManager.instance.PlayDoorOpenSfx();
+        screenShake.TriggerShake(shakeDuration, shakeMagnitude);
     }
 
     void ExitRoomHandler()
     {
+        AudioManager.instance.LoadNewStageSfx();
+
         _currentStageIndex++;
         _currentStageIndex %= stages.Count;
         _currentLoopIndex = _currentStageIndex == 0 ? _currentLoopIndex + 1 : _currentLoopIndex;
