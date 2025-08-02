@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class GameManager : MonoBehaviour
 {
@@ -9,12 +10,18 @@ public class GameManager : MonoBehaviour
 
     int _currentStageIndex = 0;
     int _currentLoopIndex = 0;
+    
+    InputAction _resetInput;
 
     void Awake()
     {
         ShowStage(_currentStageIndex, _currentLoopIndex);
 
+        player.OnExitRoom += ExitRoomHandler;
         gridManager.OnGridCompleted += GridCompletedHandler;
+        
+        _resetInput = InputSystem.actions.FindAction("Reset");
+        _resetInput.started += OnResetHandler;
     }
 
     void ShowStage(int stageIndex, int loopIndex)
@@ -26,7 +33,7 @@ public class GameManager : MonoBehaviour
         stage.Initialize(loopIndex);
         gridManager.Initialize(stage, loopIndex);
 
-        player.Initialize(Vector3Int.zero); //TODO give correct one
+        player.Initialize(gridManager.enterDoor.playerStartPosition);
     }
 
     void HideAllStages()
@@ -37,7 +44,22 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    void RestartStage()
+    {
+        var stage = stages[_currentStageIndex];
+        stage.exitDoor.SetOpenState(false);
+
+        gridManager.Reset();
+        player.Initialize(gridManager.enterDoor.playerStartPosition);
+    }
+
     void GridCompletedHandler()
+    {
+        var stage = stages[_currentStageIndex];
+        stage.exitDoor.SetOpenState(true);
+    }
+
+    void ExitRoomHandler()
     {
         _currentStageIndex++;
         _currentStageIndex %= stages.Count;
@@ -45,5 +67,10 @@ public class GameManager : MonoBehaviour
 
         Debug.Log($"{_currentStageIndex}_{_currentLoopIndex}");
         ShowStage(_currentStageIndex, _currentLoopIndex);
+    }
+
+    void OnResetHandler(InputAction.CallbackContext obj)
+    {
+        RestartStage();
     }
 }

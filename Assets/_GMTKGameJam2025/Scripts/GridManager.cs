@@ -9,12 +9,16 @@ public class GridManager : MonoBehaviour
     public Tilemap wallTilemap;
     public Tilemap goalTilemap;
     public List<Box> boxes;
+    public Door enterDoor;
+    public Door exitDoor;
 
     public int goals;
 
     public bool IsCompleted { get; private set; }
 
     public event Action OnGridCompleted;
+    
+    List<Vector3Int> boxInitialPositions = new List<Vector3Int>();
 
     public void Initialize(Stage stage, int loopIndex)
     {
@@ -28,7 +32,36 @@ public class GridManager : MonoBehaviour
             boxes.AddRange(stageBoxes);
         }
 
+        InitializeBoxes();
+
         goals = stage.goals[loopIndex];
+
+        enterDoor = stage.enterDoor;
+        exitDoor = stage.exitDoor;
+
+        IsCompleted = false;
+    }
+
+    void InitializeBoxes()
+    {
+        boxInitialPositions = new List<Vector3Int>();
+        foreach (var box in boxes)
+        {
+            box.Initialize();
+            boxInitialPositions.Add(box.GridPosition);
+        }
+    }
+
+    public void Reset()
+    {
+        for (int i = 0; i < boxes.Count; i++)
+        {
+            var box = boxes[i];
+            var boxInitialPosition = boxInitialPositions[i];
+            
+            box.SetPosition(boxInitialPosition);
+        }
+        
         IsCompleted = false;
     }
 
@@ -48,6 +81,17 @@ public class GridManager : MonoBehaviour
         return box;
     }
 
+    public bool IsDoor(Vector3Int position)
+    {
+        return enterDoor.transform.position == position
+               || IsExitDoor(position);
+    }
+
+    public bool IsExitDoor(Vector3Int position)
+    {
+        return exitDoor.transform.position == position;
+    }
+
     public bool CheckCompleted()
     {
         int inGoal = 0;
@@ -60,13 +104,14 @@ public class GridManager : MonoBehaviour
             inGoal++;
         }
 
-        IsCompleted = inGoal == goals;
+        bool isCompleted = inGoal == goals;
 
-        if (IsCompleted)
+        if (!IsCompleted && isCompleted)
         {
             OnGridCompleted?.Invoke();
         }
 
+        IsCompleted = isCompleted;
         return IsCompleted;
     }
 }

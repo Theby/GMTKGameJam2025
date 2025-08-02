@@ -11,9 +11,16 @@ public class Box : MonoBehaviour
     Vector3Int _gridPosition;
     public Vector3Int GridPosition => _gridPosition;
 
-    public void Start()
+    public void Initialize()
     {
-        _gridPosition = new Vector3Int((int)transform.position.x, (int)transform.position.y, (int)transform.position.z);
+        var spawnPosition = new Vector3Int((int)transform.position.x, (int)transform.position.y, (int)transform.position.z);
+        SetPosition(spawnPosition);
+    }
+
+    public void SetPosition(Vector3Int position)
+    {
+        _gridPosition = position;
+        transform.position = _gridPosition;
     }
 
     public TweenerCore<Vector3, Vector3, VectorOptions> Move(Vector3Int direction)
@@ -23,6 +30,9 @@ public class Box : MonoBehaviour
 
         var nextPosition = _gridPosition + direction;
         if (gridManager.IsWall(nextPosition))
+            return null;
+
+        if (gridManager.IsDoor(nextPosition))
             return null;
 
         if (gridManager.TryGetBox(nextPosition) != null)

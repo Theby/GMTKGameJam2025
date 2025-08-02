@@ -1,3 +1,4 @@
+using System;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -7,13 +8,14 @@ public class Player : MonoBehaviour
     public float moveSpeed = 0.2f;
     public GridManager gridManager;
 
+    public event Action OnExitRoom;
+
     bool _isMoving;
     InputAction _moveAction;
     Vector3Int _gridPosition;
 
     void Start()
     {
-
         _moveAction = InputSystem.actions.FindAction("Move");
         _moveAction.started += Move;
     }
@@ -59,6 +61,16 @@ public class Player : MonoBehaviour
         var nextPosition = _gridPosition + direction;
         if (gridManager.IsWall(nextPosition))
             return;
+
+        if (gridManager.IsDoor(nextPosition))
+        {
+            if (gridManager.IsExitDoor(nextPosition) && gridManager.exitDoor.IsOpened)
+            {
+                OnExitRoom?.Invoke();
+            }
+
+            return;
+        }
 
         var box = gridManager.TryGetBox(nextPosition);
         var tween = box == null

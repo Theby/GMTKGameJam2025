@@ -7,8 +7,10 @@ public class Stage : MonoBehaviour
     public List<Tilemap> groundTilemaps;
     public List<Tilemap> wallTilemaps;
     public List<Tilemap> goalTilemaps;
-    public List<GameObject> boxes;
     public List<int> goals;
+    public List<GameObject> boxes;
+    public Door enterDoor;
+    public Door exitDoor;
 
     public void Initialize(int loopIndex)
     {
@@ -19,8 +21,12 @@ public class Stage : MonoBehaviour
         goalTilemaps[loopIndex].gameObject.SetActive(true);
         for (int i = 0; i < loopIndex + 1; i++)
         {
-            boxes[i].gameObject.SetActive(true);
+            var box = boxes[i];
+            box.gameObject.SetActive(true);
         }
+
+        enterDoor.Initialize();
+        exitDoor.Initialize();
     }
 
     void HideEverything()
