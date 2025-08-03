@@ -14,6 +14,9 @@ public class AudioManager : MonoBehaviour
     public AudioClip pushSfx;
     public List<AudioClip> walkSfxs;
     public AudioClip loadNextStageSfx;
+    public AudioClip moveUISfx;
+    public AudioClip pressUISfx;
+    public AudioClip backUISfx;
 
     int _walkIndex = 0;
 
@@ -34,13 +37,13 @@ public class AudioManager : MonoBehaviour
 
     public void PlayUIMusic()
     {
-        organ.volume = 0.0f;
+        harmonics.volume = 0.0f;
         whistle.volume = 0.0f;
     }
 
     public void PlayGameMusic()
     {
-        organ.volume = 1.0f;
+        harmonics.volume = 1.0f;
         whistle.volume = 1.0f;
     }
 
@@ -83,5 +86,23 @@ public class AudioManager : MonoBehaviour
     {
         sfxAudioSource.pitch = 1.0f;
         sfxAudioSource.PlayOneShot(loadNextStageSfx);
+    }
+
+    public void MoveUISfx()
+    {
+        sfxAudioSource.pitch = 1.0f;
+        sfxAudioSource.PlayOneShot(moveUISfx);
+    }
+
+    public void PressUISfx()
+    {
+        sfxAudioSource.pitch = 1.0f;
+        sfxAudioSource.PlayOneShot(pressUISfx);
+    }
+
+    public void BackUISfx()
+    {
+        sfxAudioSource.pitch = 1.0f;
+        sfxAudioSource.PlayOneShot(backUISfx);
     }
 }

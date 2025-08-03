@@ -1,0 +1,4264 @@
+fileFormatVersion: 2
+guid: f24ea8dc5df6240fb8149e4aa1ff2daf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -520878073321908783
+    second: ControllerPrompts32x32_0
+  - first:
+      213: 1267409235474530660
+    second: ControllerPrompts32x32_1
+  - first:
+      213: -7076871933094217503
+    second: ControllerPrompts32x32_2
+  - first:
+      213: -8970781487071916312
+    second: ControllerPrompts32x32_3
+  - first:
+      213: -3008243538636390115
+    second: ControllerPrompts32x32_4
+  - first:
+      213: 7285911962457804184
+    second: ControllerPrompts32x32_5
+  - first:
+      213: 7248771466381158180
+    second: ControllerPrompts32x32_6
+  - first:
+      213: 3743281616785299766
+    second: ControllerPrompts32x32_7
+  - first:
+      213: 4524221532715208948
+    second: ControllerPrompts32x32_8
+  - first:
+      213: 5269064033032040864
+    second: ControllerPrompts32x32_9
+  - first:
+      213: 6646717654343847892
+    second: ControllerPrompts32x32_10
+  - first:
+      213: 3153553104974892434
+    second: ControllerPrompts32x32_11
+  - first:
+      213: 8839632163842913442
+    second: ControllerPrompts32x32_12
+  - first:
+      213: 2681883934057772456
+    second: ControllerPrompts32x32_13
+  - first:
+      213: 1851063189419564470
+    second: ControllerPrompts32x32_14
+  - first:
+      213: -2125931139815978558
+    second: ControllerPrompts32x32_15
+  - first:
+      213: -882639188097708162
+    second: ControllerPrompts32x32_16
+  - first:
+      213: 5313360636957772946
+    second: ControllerPrompts32x32_17
+  - first:
+      213: -5118219477328922405
+    second: ControllerPrompts32x32_18
+  - first:
+      213: 8141672775774520451
+    second: ControllerPrompts32x32_19
+  - first:
+      213: 2610626245843544816
+    second: ControllerPrompts32x32_20
+  - first:
+      213: 7745654229578473
+    second: ControllerPrompts32x32_21
+  - first:
+      213: -2689094820793925498
+    second: ControllerPrompts32x32_22
+  - first:
+      213: -1431399396883188223
+    second: ControllerPrompts32x32_23
+  - first:
+      213: -9165230946856385005
+    second: ControllerPrompts32x32_24
+  - first:
+      213: 3547617059977050662
+    second: ControllerPrompts32x32_25
+  - first:
+      213: 6582153218155924754
+    second: ControllerPrompts32x32_26
+  - first:
+      213: 5587997202338992769
+    second: ControllerPrompts32x32_27
+  - first:
+      213: 3634748350310480228
+    second: ControllerPrompts32x32_28
+  - first:
+      213: -885005128889205104
+    second: ControllerPrompts32x32_29
+  - first:
+      213: -2572564549170999997
+    second: ControllerPrompts32x32_30
+  - first:
+      213: 8758562574349000594
+    second: ControllerPrompts32x32_31
+  - first:
+      213: -2405938673091552979
+    second: ControllerPrompts32x32_32
+  - first:
+      213: -454893141891710802
+    second: ControllerPrompts32x32_33
+  - first:
+      213: -6210602529808268816
+    second: ControllerPrompts32x32_34
+  - first:
+      213: -3996479399167168236
+    second: ControllerPrompts32x32_35
+  - first:
+      213: -2556183545318787096
+    second: ControllerPrompts32x32_36
+  - first:
+      213: -7104079233503767112
+    second: ControllerPrompts32x32_37
+  - first:
+      213: 3612083482664221131
+    second: ControllerPrompts32x32_38
+  - first:
+      213: 5232743735784428089
+    second: ControllerPrompts32x32_39
+  - first:
+      213: -5893597172058485355
+    second: ControllerPrompts32x32_40
+  - first:
+      213: -1266934437461869943
+    second: ControllerPrompts32x32_41
+  - first:
+      213: 727254704531114597
+    second: ControllerPrompts32x32_42
+  - first:
+      213: -8101120071644752866
+    second: ControllerPrompts32x32_43
+  - first:
+      213: -8261204309576142501
+    second: ControllerPrompts32x32_44
+  - first:
+      213: -9169388190523745254
+    second: ControllerPrompts32x32_45
+  - first:
+      213: 1586682541935727762
+    second: ControllerPrompts32x32_46
+  - first:
+      213: 8317668221529448578
+    second: ControllerPrompts32x32_47
+  - first:
+      213: 7726052426053595140
+    second: ControllerPrompts32x32_48
+  - first:
+      213: -1468164742358157275
+    second: ControllerPrompts32x32_49
+  - first:
+      213: 9214669122111442506
+    second: ControllerPrompts32x32_50
+  - first:
+      213: -410098908304112551
+    second: ControllerPrompts32x32_51
+  - first:
+      213: -851608003024032733
+    second: ControllerPrompts32x32_52
+  - first:
+      213: -4620535216895714717
+    second: ControllerPrompts32x32_53
+  - first:
+      213: -5621730369446682351
+    second: ControllerPrompts32x32_54
+  - first:
+      213: 3912961955446980584
+    second: ControllerPrompts32x32_55
+  - first:
+      213: -5010441009619869801
+    second: ControllerPrompts32x32_56
+  - first:
+      213: 3955328748487156275
+    second: ControllerPrompts32x32_57
+  - first:
+      213: -8075402554801638813
+    second: ControllerPrompts32x32_58
+  - first:
+      213: -3837300104630268434
+    second: ControllerPrompts32x32_59
+  - first:
+      213: -1149794280049422798
+    second: ControllerPrompts32x32_60
+  - first:
+      213: 4704227054113864631
+    second: ControllerPrompts32x32_61
+  - first:
+      213: -7533844445312125651
+    second: ControllerPrompts32x32_62
+  - first:
+      213: -352581509206252955
+    second: ControllerPrompts32x32_63
+  - first:
+      213: 8712775305364738010
+    second: ControllerPrompts32x32_64
+  - first:
+      213: -2237313958347634075
+    second: ControllerPrompts32x32_65
+  - first:
+      213: 3056364320433171797
+    second: ControllerPrompts32x32_66
+  - first:
+      213: 7175642777079789814
+    second: ControllerPrompts32x32_67
+  - first:
+      213: -3052497020409960507
+    second: ControllerPrompts32x32_68
+  - first:
+      213: 3204248270248902112
+    second: ControllerPrompts32x32_69
+  - first:
+      213: -2140956223208144744
+    second: ControllerPrompts32x32_70
+  - first:
+      213: 5540476529714203388
+    second: ControllerPrompts32x32_71
+  - first:
+      213: -4261218694534617027
+    second: ControllerPrompts32x32_72
+  - first:
+      213: -5209638211529418173
+    second: ControllerPrompts32x32_73
+  - first:
+      213: 3443456778847963584
+    second: ControllerPrompts32x32_74
+  - first:
+      213: 6876395096292637404
+    second: ControllerPrompts32x32_75
+  - first:
+      213: -1797813548310554626
+    second: ControllerPrompts32x32_76
+  - first:
+      213: 3437481359628248788
+    second: ControllerPrompts32x32_77
+  - first:
+      213: 7411754418787566969
+    second: ControllerPrompts32x32_78
+  - first:
+      213: -4440038265114751947
+    second: ControllerPrompts32x32_79
+  - first:
+      213: -4050898258232235653
+    second: ControllerPrompts32x32_80
+  - first:
+      213: 7708206576186458897
+    second: ControllerPrompts32x32_81
+  - first:
+      213: -1162981287103678592
+    second: ControllerPrompts32x32_82
+  - first:
+      213: 3601200851321620447
+    second: ControllerPrompts32x32_83
+  - first:
+      213: 1413913943231508116
+    second: ControllerPrompts32x32_84
+  - first:
+      213: 6417770070504320558
+    second: ControllerPrompts32x32_85
+  - first:
+      213: 5575556169769077779
+    second: ControllerPrompts32x32_86
+  - first:
+      213: 8843265085208596294
+    second: ControllerPrompts32x32_87
+  - first:
+      213: 8129064481397449472
+    second: ControllerPrompts32x32_88
+  - first:
+      213: -5308997009987172145
+    second: ControllerPrompts32x32_89
+  - first:
+      213: -1476032570087641360
+    second: ControllerPrompts32x32_90
+  - first:
+      213: -3900962626090015993
+    second: ControllerPrompts32x32_91
+  - first:
+      213: 331105004930919885
+    second: ControllerPrompts32x32_92
+  - first:
+      213: -3535781874396455406
+    second: ControllerPrompts32x32_93
+  - first:
+      213: 7547886165560858091
+    second: ControllerPrompts32x32_94
+  - first:
+      213: -4522154671105133345
+    second: ControllerPrompts32x32_95
+  - first:
+      213: -6880342078902308827
+    second: ControllerPrompts32x32_96
+  - first:
+      213: -1504098709787173490
+    second: ControllerPrompts32x32_97
+  - first:
+      213: -3955267174423350452
+    second: ControllerPrompts32x32_98
+  - first:
+      213: -8252283616236877320
+    second: ControllerPrompts32x32_99
+  - first:
+      213: -6309396136182696241
+    second: ControllerPrompts32x32_100
+  - first:
+      213: 2062947613902015464
+    second: ControllerPrompts32x32_101
+  - first:
+      213: 1320063208955304395
+    second: ControllerPrompts32x32_102
+  - first:
+      213: -4684980108631158518
+    second: ControllerPrompts32x32_103
+  - first:
+      213: -7604267352466292913
+    second: ControllerPrompts32x32_104
+  - first:
+      213: 4472251058293591727
+    second: ControllerPrompts32x32_105
+  - first:
+      213: -3091629731163496903
+    second: ControllerPrompts32x32_106
+  - first:
+      213: 8195411968556803260
+    second: ControllerPrompts32x32_107
+  - first:
+      213: -2257548913635240348
+    second: ControllerPrompts32x32_108
+  - first:
+      213: -2623094264634134107
+    second: ControllerPrompts32x32_109
+  - first:
+      213: 8737058187961151708
+    second: ControllerPrompts32x32_110
+  - first:
+      213: -5861778566991452622
+    second: ControllerPrompts32x32_111
+  - first:
+      213: -6448836009558033887
+    second: ControllerPrompts32x32_112
+  - first:
+      213: -5314655102149981359
+    second: ControllerPrompts32x32_113
+  - first:
+      213: 5204415745536088939
+    second: ControllerPrompts32x32_114
+  - first:
+      213: 4057758789541531246
+    second: ControllerPrompts32x32_115
+  - first:
+      213: -1188502674696380321
+    second: ControllerPrompts32x32_116
+  - first:
+      213: 1537929477235753761
+    second: ControllerPrompts32x32_117
+  - first:
+      213: -7644685365502533232
+    second: ControllerPrompts32x32_118
+  - first:
+      213: -6829767783076702974
+    second: ControllerPrompts32x32_119
+  - first:
+      213: -5590167332436159773
+    second: ControllerPrompts32x32_120
+  - first:
+      213: 2910948709730189946
+    second: ControllerPrompts32x32_121
+  - first:
+      213: -1894395061889303429
+    second: ControllerPrompts32x32_122
+  - first:
+      213: 548173574324880256
+    second: ControllerPrompts32x32_123
+  - first:
+      213: -5707383130209434486
+    second: ControllerPrompts32x32_124
+  - first:
+      213: -919156269957773440
+    second: ControllerPrompts32x32_125
+  - first:
+      213: -6302404495533887616
+    second: ControllerPrompts32x32_126
+  - first:
+      213: 1692589532016517868
+    second: ControllerPrompts32x32_127
+  - first:
+      213: -6836778291540429691
+    second: ControllerPrompts32x32_128
+  - first:
+      213: 1534242246212480887
+    second: ControllerPrompts32x32_129
+  - first:
+      213: 4831139487469620247
+    second: ControllerPrompts32x32_130
+  - first:
+      213: -2013934943383585736
+    second: ControllerPrompts32x32_131
+  - first:
+      213: -4020122278915782421
+    second: ControllerPrompts32x32_132
+  - first:
+      213: -726050778070672295
+    second: ControllerPrompts32x32_133
+  - first:
+      213: 6213706268472070314
+    second: ControllerPrompts32x32_134
+  - first:
+      213: 5272234762371194618
+    second: ControllerPrompts32x32_135
+  - first:
+      213: -6716920799630784213
+    second: ControllerPrompts32x32_136
+  - first:
+      213: 2303453712970208700
+    second: ControllerPrompts32x32_137
+  - first:
+      213: -2669457466517469632
+    second: ControllerPrompts32x32_138
+  - first:
+      213: -8534078396058331872
+    second: ControllerPrompts32x32_139
+  - first:
+      213: 3952590737189555548
+    second: ControllerPrompts32x32_140
+  - first:
+      213: -1425372387247153496
+    second: ControllerPrompts32x32_141
+  - first:
+      213: -138557324475027198
+    second: ControllerPrompts32x32_142
+  - first:
+      213: 2851882198241648240
+    second: ControllerPrompts32x32_143
+  - first:
+      213: -1676645316146503005
+    second: ControllerPrompts32x32_144
+  - first:
+      213: 5225787284731843592
+    second: ControllerPrompts32x32_145
+  - first:
+      213: -7424615201494048956
+    second: ControllerPrompts32x32_146
+  - first:
+      213: -7635698185100785269
+    second: ControllerPrompts32x32_147
+  - first:
+      213: 4688263179694492125
+    second: ControllerPrompts32x32_148
+  - first:
+      213: -1648712013333912909
+    second: ControllerPrompts32x32_149
+  - first:
+      213: -315304314003045322
+    second: ControllerPrompts32x32_150
+  - first:
+      213: -4078647627845935435
+    second: ControllerPrompts32x32_151
+  - first:
+      213: 5903161756732112279
+    second: ControllerPrompts32x32_152
+  - first:
+      213: -4882026742877748917
+    second: ControllerPrompts32x32_153
+  - first:
+      213: 4545085983810518006
+    second: ControllerPrompts32x32_154
+  - first:
+      213: -4677442867839782800
+    second: ControllerPrompts32x32_155
+  - first:
+      213: -6319225677478627729
+    second: ControllerPrompts32x32_156
+  - first:
+      213: 2951348615083263909
+    second: ControllerPrompts32x32_157
+  - first:
+      213: 6987266572308671480
+    second: ControllerPrompts32x32_158
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 458
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d59b5ce62875c8f0800000000000000
+      internalID: -520878073321908783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 467
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46142811cfdb69110800000000000000
+      internalID: 1267409235474530660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_2
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 458
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8bcf2c876e9cd90800000000000000
+      internalID: -7076871933094217503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_3
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 458
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee8d6944c1618380800000000000000
+      internalID: -8970781487071916312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_4
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 467
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d11c6b1a0729046d0800000000000000
+      internalID: -3008243538636390115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_5
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 458
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d0113d352cc1560800000000000000
+      internalID: 7285911962457804184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_6
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 458
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 427e2a73e3fc89460800000000000000
+      internalID: 7248771466381158180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_7
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 467
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 639dcb63ccec2f330800000000000000
+      internalID: 3743281616785299766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_8
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 458
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f0d9ae738349ce30800000000000000
+      internalID: 4524221532715208948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_9
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 458
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a179a342d97f1940800000000000000
+      internalID: 5269064033032040864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_10
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 467
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4df8b75ad72ed3c50800000000000000
+      internalID: 6646717654343847892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_11
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 458
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29dcb5a37dba3cb20800000000000000
+      internalID: 3153553104974892434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_12
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 458
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a479fe5e9eacaa70800000000000000
+      internalID: 8839632163842913442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_13
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 467
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a537529a37f73520800000000000000
+      internalID: 2681883934057772456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_14
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 458
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bd9726d92c40b910800000000000000
+      internalID: 1851063189419564470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_15
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 449
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9c35a54ec2f72e0800000000000000
+      internalID: -2125931139815978558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_16
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 449
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7fc898b55c30c3f0800000000000000
+      internalID: -882639188097708162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_17
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 449
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29c49611959dcb940800000000000000
+      internalID: 5313360636957772946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_18
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 449
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd8f25bb08e68f8b0800000000000000
+      internalID: -5118219477328922405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_19
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 449
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384428dc0480df070800000000000000
+      internalID: 8141672775774520451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_20
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 449
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fae0d82dbeca3420800000000000000
+      internalID: 2610626245843544816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_21
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 449
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e238e8a1a48b1000800000000000000
+      internalID: 7745654229578473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_22
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 417
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6804c37028a6eaad0800000000000000
+      internalID: -2689094820793925498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_23
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 410
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106b11915d5a22ce0800000000000000
+      internalID: -1431399396883188223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_24
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 417
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3164538630f8ec080800000000000000
+      internalID: -9165230946856385005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_25
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 410
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a3c038beaab3130800000000000000
+      internalID: 3547617059977050662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_26
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 417
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21dc0696a71885b50800000000000000
+      internalID: 6582153218155924754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_27
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 417
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182da4b59dd8c8d40800000000000000
+      internalID: 5587997202338992769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_28
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 417
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469713ced58317230800000000000000
+      internalID: 3634748350310480228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_29
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 417
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09ef8243684d7b3f0800000000000000
+      internalID: -885005128889205104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_30
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 417
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34d46ec2c2a6c4cd0800000000000000
+      internalID: -2572564549170999997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 378
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29f5a1ba14aac8970800000000000000
+      internalID: 8758562574349000594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_32
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 385
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29d00726836c9ed0800000000000000
+      internalID: -2405938673091552979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_33
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 378
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea088caf815efa9f0800000000000000
+      internalID: -454893141891710802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_34
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 383
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1c2a187e18fc9a0800000000000000
+      internalID: -6210602529808268816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_35
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 385
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41179742927a988c0800000000000000
+      internalID: -3996479399167168236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_36
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 383
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e73398db9c968cd0800000000000000
+      internalID: -2556183545318787096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_37
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 385
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b557ce739d396d90800000000000000
+      internalID: -7104079233503767112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_38
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 385
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9b1433ac2b02230800000000000000
+      internalID: 3612083482664221131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_39
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 385
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 932d41414b07e9840800000000000000
+      internalID: 5232743735784428089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_40
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 385
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d053ef89cb53ea0800000000000000
+      internalID: -5893597172058485355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_41
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 385
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98a306577d1fa6ee0800000000000000
+      internalID: -1266934437461869943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 351
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a0fc4fc4ab71a00800000000000000
+      internalID: 727254704531114597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_43
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 353
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e14d3d6673a039f80800000000000000
+      internalID: -8101120071644752866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_44
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 351
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51b9ce337e4a5d80800000000000000
+      internalID: -8261204309576142501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_45
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 358
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c9b20b50acfb080800000000000000
+      internalID: -9169388190523745254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_46
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 358
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29494638d57050610800000000000000
+      internalID: 1586682541935727762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_47
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 353
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28061d7bd2b4e6370800000000000000
+      internalID: 8317668221529448578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_48
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 353
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40038f24fb3783b60800000000000000
+      internalID: 7726052426053595140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_49
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 358
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5283dfb02f700abe0800000000000000
+      internalID: -1468164742358157275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_50
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 358
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4e8632ceb411ef70800000000000000
+      internalID: 9214669122111442506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_51
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 326
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95402c737390f4af0800000000000000
+      internalID: -410098908304112551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_52
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 326
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32c6fd3880b7e24f0800000000000000
+      internalID: -851608003024032733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_53
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 298
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a9fbc63bf80efb0800000000000000
+      internalID: -4620535216895714717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_54
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 307
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111ea12a30a9bf1b0800000000000000
+      internalID: -5621730369446682351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_55
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 298
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eff80eaa22ad4630800000000000000
+      internalID: 3912961955446980584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_56
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 298
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79fde8db276577ab0800000000000000
+      internalID: -5010441009619869801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_57
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 307
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332a77f5a8624e630800000000000000
+      internalID: 3955328748487156275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_58
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 298
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36234c669286eef80800000000000000
+      internalID: -8075402554801638813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_59
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 298
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eed81feb2eb2fbac0800000000000000
+      internalID: -3837300104630268434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_60
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 307
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ec0e4b13c1b00f0800000000000000
+      internalID: -1149794280049422798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_61
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 298
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb3d37e495c84140800000000000000
+      internalID: 4704227054113864631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_62
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 298
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d25fe1c9468627790800000000000000
+      internalID: -7533844445312125651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_63
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 307
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 562e3654cf06b1bf0800000000000000
+      internalID: -352581509206252955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_64
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 298
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adf8f0c5afef9e870800000000000000
+      internalID: 8712775305364738010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_65
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 298
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56a8aa50fc673f0e0800000000000000
+      internalID: -2237313958347634075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_66
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 307
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55de897f7236a6a20800000000000000
+      internalID: 3056364320433171797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_67
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 298
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f830fa6611059360800000000000000
+      internalID: 7175642777079789814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_68
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 289
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c7a68cf12a53a5d0800000000000000
+      internalID: -3052497020409960507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_69
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 289
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ed785033d6c77c20800000000000000
+      internalID: 3204248270248902112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_70
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 289
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 890440488abc942e0800000000000000
+      internalID: -2140956223208144744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_71
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 289
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfa01009c0ab3ec40800000000000000
+      internalID: 5540476529714203388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_72
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 289
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d38a20a9c2c1dd4c0800000000000000
+      internalID: -4261218694534617027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_73
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 289
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34adc7106a5a3b7b0800000000000000
+      internalID: -5209638211529418173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_74
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 289
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c9c4a632bd99cf20800000000000000
+      internalID: 3443456778847963584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_75
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 257
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdab2c948ecdd6f50800000000000000
+      internalID: 6876395096292637404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_76
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 250
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef790906a12ec07e0800000000000000
+      internalID: -1797813548310554626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_77
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 257
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d62ba2851364bf20800000000000000
+      internalID: 3437481359628248788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_78
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 250
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 975c34eef57dbd660800000000000000
+      internalID: 7411754418787566969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_79
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 257
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c81b2e8b0d162c0800000000000000
+      internalID: -4440038265114751947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_80
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 257
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b79a1d82f7158c7c0800000000000000
+      internalID: -4050898258232235653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_81
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 257
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1138cec8a0d09fa60800000000000000
+      internalID: 7708206576186458897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_82
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 257
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08732cd5ea24cdfe0800000000000000
+      internalID: -1162981287103678592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_83
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 257
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd70cd328190af130800000000000000
+      internalID: 3601200851321620447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 218
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e29497d3b3f9310800000000000000
+      internalID: 1413913943231508116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_85
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 225
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e2b8650ef701950800000000000000
+      internalID: 6417770070504320558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_86
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 218
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31cc25cbbca506d40800000000000000
+      internalID: 5575556169769077779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_87
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 223
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64f097acdb699ba70800000000000000
+      internalID: 8843265085208596294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_88
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 225
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 003a0f1831d30d070800000000000000
+      internalID: 8129064481397449472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_89
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 223
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc88a120957a256b0800000000000000
+      internalID: -5308997009987172145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_90
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 225
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fee407a234148be0800000000000000
+      internalID: -1476032570087641360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_91
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 225
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70364d5e82ffcd9c0800000000000000
+      internalID: -3900962626090015993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_92
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 225
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcde24a6f32589400800000000000000
+      internalID: 331105004930919885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_93
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 225
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e955d5e116eeec0800000000000000
+      internalID: -3535781874396455406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_94
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 225
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be517572a7a7fb860800000000000000
+      internalID: 7547886165560858091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd4b76939441e31c0800000000000000
+      internalID: -4522154671105133345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_96
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 193
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520fad5355d1480a0800000000000000
+      internalID: -6880342078902308827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_97
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 191
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d1308413e502be0800000000000000
+      internalID: -1504098709787173490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_98
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 198
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c43bbb4f5711c19c0800000000000000
+      internalID: -3955267174423350452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_99
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 198
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9cc6406cff97d80800000000000000
+      internalID: -8252283616236877320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_100
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 193
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc6bb9b84a58078a0800000000000000
+      internalID: -6309396136182696241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_101
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 193
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb8ed4ccef01ac10800000000000000
+      internalID: 2062947613902015464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_102
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 198
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9d7da9e7ec15210800000000000000
+      internalID: 1320063208955304395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_103
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 198
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a01d44dc96b9bfeb0800000000000000
+      internalID: -4684980108631158518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_104
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 166
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f752fc127387690800000000000000
+      internalID: -7604267352466292913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_105
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 166
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae44fb74a0a01e30800000000000000
+      internalID: 4472251058293591727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_106
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 138
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e96f0c3235815d0800000000000000
+      internalID: -3091629731163496903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_107
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 147
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb420d5a3c3fbb170800000000000000
+      internalID: 8195411968556803260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_108
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 138
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466d3bb59339ba0e0800000000000000
+      internalID: -2257548913635240348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_109
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 138
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a13e100aa5e89bd0800000000000000
+      internalID: -2623094264634134107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_110
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 147
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0b75b8124404970800000000000000
+      internalID: 8737058187961151708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_111
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 138
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236e97a4377c6aea0800000000000000
+      internalID: -5861778566991452622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_112
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 138
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12abb8311d12186a0800000000000000
+      internalID: -6448836009558033887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_113
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 147
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15b02a4c75d8e36b0800000000000000
+      internalID: -5314655102149981359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_114
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 138
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6bd020eb8cc93840800000000000000
+      internalID: 5204415745536088939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_115
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 138
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e87d2ce1e005830800000000000000
+      internalID: 4057758789541531246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_116
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 147
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50ee144d17918fe0800000000000000
+      internalID: -1188502674696380321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_117
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 138
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1234d3416b2d75510800000000000000
+      internalID: 1537929477235753761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_118
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 138
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0912891d92f98e590800000000000000
+      internalID: -7644685365502533232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_119
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 147
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2055e4f036ac731a0800000000000000
+      internalID: -6829767783076702974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_120
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 138
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e2562bdd6cbb62b0800000000000000
+      internalID: -5590167332436159773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_121
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 129
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7289dabd64c56820800000000000000
+      internalID: 2910948709730189946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_122
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 129
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7c75d76ab1c5b5e0800000000000000
+      internalID: -1894395061889303429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_123
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 129
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08304e426f08b9700800000000000000
+      internalID: 548173574324880256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_124
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 129
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a844fc6384d4bc0b0800000000000000
+      internalID: -5707383130209434486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_125
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 129
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 087081c0e308e33f0800000000000000
+      internalID: -919156269957773440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_126
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 129
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08fa0ecb08c5988a0800000000000000
+      internalID: -6302404495533887616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_127
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 129
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce2a36e26394d7710800000000000000
+      internalID: 1692589532016517868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_128
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 97
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58471acdd52ee11a0800000000000000
+      internalID: -6836778291540429691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_129
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 90
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f64e4b139ba4510800000000000000
+      internalID: 1534242246212480887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_130
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 97
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71c4df274c7ab0340800000000000000
+      internalID: 4831139487469620247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_131
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 90
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83cffdad6d01d04e0800000000000000
+      internalID: -2013934943383585736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_132
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 97
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be8479b3618a538c0800000000000000
+      internalID: -4020122278915782421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_133
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 97
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c93340aac8ce5f0800000000000000
+      internalID: -726050778070672295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_134
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 97
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa055e6fde48b3650800000000000000
+      internalID: 6213706268472070314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_135
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 97
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afed997359dba2940800000000000000
+      internalID: 5272234762371194618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_136
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 97
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b290399de14b8c2a0800000000000000
+      internalID: -6716920799630784213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_137
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 58
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5d42e92f287ff10800000000000000
+      internalID: 2303453712970208700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_138
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 65
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 046463dd39e24fad0800000000000000
+      internalID: -2669457466517469632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_139
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 58
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0259b9d0aecd09980800000000000000
+      internalID: -8534078396058331872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_140
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 63
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5dcea0755c6ad630800000000000000
+      internalID: 3952590737189555548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_141
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 65
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ae9b71ad5f083ce0800000000000000
+      internalID: -1425372387247153496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_142
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 63
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20133a5f8deb31ef0800000000000000
+      internalID: -138557324475027198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_143
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 65
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e1477dfbbe39720800000000000000
+      internalID: 2851882198241648240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_144
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 65
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2e3ccd7fb5bb8e0800000000000000
+      internalID: -1676645316146503005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_145
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 65
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804d13a19d9b58840800000000000000
+      internalID: 5225787284731843592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_146
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 65
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44f5bf0cfc776f890800000000000000
+      internalID: -7424615201494048956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_147
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 65
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8909f0d4fc880690800000000000000
+      internalID: -7635698185100785269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_148
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9cb3fb58e001140800000000000000
+      internalID: 4688263179694492125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_149
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 33
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b2205cb8299e19e0800000000000000
+      internalID: -1648712013333912909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_150
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 31
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63443bf9560df9bf0800000000000000
+      internalID: -315304314003045322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_151
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 38
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bed042979bb567c0800000000000000
+      internalID: -4078647627845935435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_152
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 38
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d30b9675e3ce150800000000000000
+      internalID: 5903161756732112279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_153
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 33
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4180de1b8e8f3cb0800000000000000
+      internalID: -4882026742877748917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_154
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 33
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbf1a21f93631f30800000000000000
+      internalID: 4545085983810518006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_155
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 38
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070b93d6e72661fb0800000000000000
+      internalID: -4677442867839782800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_156
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 38
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f66fb5e1ab99d48a0800000000000000
+      internalID: -6319225677478627729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_157
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 6
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a70162bdeb45f820800000000000000
+      internalID: 2951348615083263909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ControllerPrompts32x32_158
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 6
+        width: 30
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fb6b696de1c7f060800000000000000
+      internalID: 6987266572308671480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ControllerPrompts32x32_0: -520878073321908783
+      ControllerPrompts32x32_1: 1267409235474530660
+      ControllerPrompts32x32_10: 6646717654343847892
+      ControllerPrompts32x32_100: -6309396136182696241
+      ControllerPrompts32x32_101: 2062947613902015464
+      ControllerPrompts32x32_102: 1320063208955304395
+      ControllerPrompts32x32_103: -4684980108631158518
+      ControllerPrompts32x32_104: -7604267352466292913
+      ControllerPrompts32x32_105: 4472251058293591727
+      ControllerPrompts32x32_106: -3091629731163496903
+      ControllerPrompts32x32_107: 8195411968556803260
+      ControllerPrompts32x32_108: -2257548913635240348
+      ControllerPrompts32x32_109: -2623094264634134107
+      ControllerPrompts32x32_11: 3153553104974892434
+      ControllerPrompts32x32_110: 8737058187961151708
+      ControllerPrompts32x32_111: -5861778566991452622
+      ControllerPrompts32x32_112: -6448836009558033887
+      ControllerPrompts32x32_113: -5314655102149981359
+      ControllerPrompts32x32_114: 5204415745536088939
+      ControllerPrompts32x32_115: 4057758789541531246
+      ControllerPrompts32x32_116: -1188502674696380321
+      ControllerPrompts32x32_117: 1537929477235753761
+      ControllerPrompts32x32_118: -7644685365502533232
+      ControllerPrompts32x32_119: -6829767783076702974
+      ControllerPrompts32x32_12: 8839632163842913442
+      ControllerPrompts32x32_120: -5590167332436159773
+      ControllerPrompts32x32_121: 2910948709730189946
+      ControllerPrompts32x32_122: -1894395061889303429
+      ControllerPrompts32x32_123: 548173574324880256
+      ControllerPrompts32x32_124: -5707383130209434486
+      ControllerPrompts32x32_125: -919156269957773440
+      ControllerPrompts32x32_126: -6302404495533887616
+      ControllerPrompts32x32_127: 1692589532016517868
+      ControllerPrompts32x32_128: -6836778291540429691
+      ControllerPrompts32x32_129: 1534242246212480887
+      ControllerPrompts32x32_13: 2681883934057772456
+      ControllerPrompts32x32_130: 4831139487469620247
+      ControllerPrompts32x32_131: -2013934943383585736
+      ControllerPrompts32x32_132: -4020122278915782421
+      ControllerPrompts32x32_133: -726050778070672295
+      ControllerPrompts32x32_134: 6213706268472070314
+      ControllerPrompts32x32_135: 5272234762371194618
+      ControllerPrompts32x32_136: -6716920799630784213
+      ControllerPrompts32x32_137: 2303453712970208700
+      ControllerPrompts32x32_138: -2669457466517469632
+      ControllerPrompts32x32_139: -8534078396058331872
+      ControllerPrompts32x32_14: 1851063189419564470
+      ControllerPrompts32x32_140: 3952590737189555548
+      ControllerPrompts32x32_141: -1425372387247153496
+      ControllerPrompts32x32_142: -138557324475027198
+      ControllerPrompts32x32_143: 2851882198241648240
+      ControllerPrompts32x32_144: -1676645316146503005
+      ControllerPrompts32x32_145: 5225787284731843592
+      ControllerPrompts32x32_146: -7424615201494048956
+      ControllerPrompts32x32_147: -7635698185100785269
+      ControllerPrompts32x32_148: 4688263179694492125
+      ControllerPrompts32x32_149: -1648712013333912909
+      ControllerPrompts32x32_15: -2125931139815978558
+      ControllerPrompts32x32_150: -315304314003045322
+      ControllerPrompts32x32_151: -4078647627845935435
+      ControllerPrompts32x32_152: 5903161756732112279
+      ControllerPrompts32x32_153: -4882026742877748917
+      ControllerPrompts32x32_154: 4545085983810518006
+      ControllerPrompts32x32_155: -4677442867839782800
+      ControllerPrompts32x32_156: -6319225677478627729
+      ControllerPrompts32x32_157: 2951348615083263909
+      ControllerPrompts32x32_158: 6987266572308671480
+      ControllerPrompts32x32_16: -882639188097708162
+      ControllerPrompts32x32_17: 5313360636957772946
+      ControllerPrompts32x32_18: -5118219477328922405
+      ControllerPrompts32x32_19: 8141672775774520451
+      ControllerPrompts32x32_2: -7076871933094217503
+      ControllerPrompts32x32_20: 2610626245843544816
+      ControllerPrompts32x32_21: 7745654229578473
+      ControllerPrompts32x32_22: -2689094820793925498
+      ControllerPrompts32x32_23: -1431399396883188223
+      ControllerPrompts32x32_24: -9165230946856385005
+      ControllerPrompts32x32_25: 3547617059977050662
+      ControllerPrompts32x32_26: 6582153218155924754
+      ControllerPrompts32x32_27: 5587997202338992769
+      ControllerPrompts32x32_28: 3634748350310480228
+      ControllerPrompts32x32_29: -885005128889205104
+      ControllerPrompts32x32_3: -8970781487071916312
+      ControllerPrompts32x32_30: -2572564549170999997
+      ControllerPrompts32x32_31: 8758562574349000594
+      ControllerPrompts32x32_32: -2405938673091552979
+      ControllerPrompts32x32_33: -454893141891710802
+      ControllerPrompts32x32_34: -6210602529808268816
+      ControllerPrompts32x32_35: -3996479399167168236
+      ControllerPrompts32x32_36: -2556183545318787096
+      ControllerPrompts32x32_37: -7104079233503767112
+      ControllerPrompts32x32_38: 3612083482664221131
+      ControllerPrompts32x32_39: 5232743735784428089
+      ControllerPrompts32x32_4: -3008243538636390115
+      ControllerPrompts32x32_40: -5893597172058485355
+      ControllerPrompts32x32_41: -1266934437461869943
+      ControllerPrompts32x32_42: 727254704531114597
+      ControllerPrompts32x32_43: -8101120071644752866
+      ControllerPrompts32x32_44: -8261204309576142501
+      ControllerPrompts32x32_45: -9169388190523745254
+      ControllerPrompts32x32_46: 1586682541935727762
+      ControllerPrompts32x32_47: 8317668221529448578
+      ControllerPrompts32x32_48: 7726052426053595140
+      ControllerPrompts32x32_49: -1468164742358157275
+      ControllerPrompts32x32_5: 7285911962457804184
+      ControllerPrompts32x32_50: 9214669122111442506
+      ControllerPrompts32x32_51: -410098908304112551
+      ControllerPrompts32x32_52: -851608003024032733
+      ControllerPrompts32x32_53: -4620535216895714717
+      ControllerPrompts32x32_54: -5621730369446682351
+      ControllerPrompts32x32_55: 3912961955446980584
+      ControllerPrompts32x32_56: -5010441009619869801
+      ControllerPrompts32x32_57: 3955328748487156275
+      ControllerPrompts32x32_58: -8075402554801638813
+      ControllerPrompts32x32_59: -3837300104630268434
+      ControllerPrompts32x32_6: 7248771466381158180
+      ControllerPrompts32x32_60: -1149794280049422798
+      ControllerPrompts32x32_61: 4704227054113864631
+      ControllerPrompts32x32_62: -7533844445312125651
+      ControllerPrompts32x32_63: -352581509206252955
+      ControllerPrompts32x32_64: 8712775305364738010
+      ControllerPrompts32x32_65: -2237313958347634075
+      ControllerPrompts32x32_66: 3056364320433171797
+      ControllerPrompts32x32_67: 7175642777079789814
+      ControllerPrompts32x32_68: -3052497020409960507
+      ControllerPrompts32x32_69: 3204248270248902112
+      ControllerPrompts32x32_7: 3743281616785299766
+      ControllerPrompts32x32_70: -2140956223208144744
+      ControllerPrompts32x32_71: 5540476529714203388
+      ControllerPrompts32x32_72: -4261218694534617027
+      ControllerPrompts32x32_73: -5209638211529418173
+      ControllerPrompts32x32_74: 3443456778847963584
+      ControllerPrompts32x32_75: 6876395096292637404
+      ControllerPrompts32x32_76: -1797813548310554626
+      ControllerPrompts32x32_77: 3437481359628248788
+      ControllerPrompts32x32_78: 7411754418787566969
+      ControllerPrompts32x32_79: -4440038265114751947
+      ControllerPrompts32x32_8: 4524221532715208948
+      ControllerPrompts32x32_80: -4050898258232235653
+      ControllerPrompts32x32_81: 7708206576186458897
+      ControllerPrompts32x32_82: -1162981287103678592
+      ControllerPrompts32x32_83: 3601200851321620447
+      ControllerPrompts32x32_84: 1413913943231508116
+      ControllerPrompts32x32_85: 6417770070504320558
+      ControllerPrompts32x32_86: 5575556169769077779
+      ControllerPrompts32x32_87: 8843265085208596294
+      ControllerPrompts32x32_88: 8129064481397449472
+      ControllerPrompts32x32_89: -5308997009987172145
+      ControllerPrompts32x32_9: 5269064033032040864
+      ControllerPrompts32x32_90: -1476032570087641360
+      ControllerPrompts32x32_91: -3900962626090015993
+      ControllerPrompts32x32_92: 331105004930919885
+      ControllerPrompts32x32_93: -3535781874396455406
+      ControllerPrompts32x32_94: 7547886165560858091
+      ControllerPrompts32x32_95: -4522154671105133345
+      ControllerPrompts32x32_96: -6880342078902308827
+      ControllerPrompts32x32_97: -1504098709787173490
+      ControllerPrompts32x32_98: -3955267174423350452
+      ControllerPrompts32x32_99: -8252283616236877320
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

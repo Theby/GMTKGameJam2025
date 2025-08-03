@@ -12,6 +12,8 @@ public class Stage : MonoBehaviour
     public Door enterDoor;
     public Door exitDoor;
 
+    List<List<Vector3>> _boxPositions = new List<List<Vector3>>();
+
     public void Initialize(int loopIndex)
     {
         HideEverything();
@@ -35,5 +37,34 @@ public class Stage : MonoBehaviour
         wallTilemaps.ForEach(t => t.gameObject.SetActive(false));
         goalTilemaps.ForEach(t => t.gameObject.SetActive(false));
         boxes.ForEach(t => t.gameObject.SetActive(false));
+    }
+
+    public void SaveOriginalBoxPositions()
+    {
+        _boxPositions = new List<List<Vector3>>();
+
+        for (var i = 0; i < boxes.Count; i++)
+        {
+            _boxPositions.Add(new List<Vector3>());
+            var boxParent = boxes[i];
+            foreach (Transform box in boxParent.transform)
+            {
+                _boxPositions[i].Add(box.position);
+            }
+        }
+    }
+
+    public void ResetAllBoxes()
+    {
+        for (var i = 0; i < boxes.Count; i++)
+        {
+            var boxParent = boxes[i];
+            var j = 0;
+            foreach (Transform box in boxParent.transform)
+            {
+                box.position = _boxPositions[i][j];
+                j++;
+            }
+        }
     }
 }

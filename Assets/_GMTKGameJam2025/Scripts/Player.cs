@@ -10,17 +10,34 @@ public class Player : MonoBehaviour
     public GridManager gridManager;
 
     public event Action OnExitRoom;
+    public event Action OnPause;
 
     bool _isMoving;
     InputAction _moveAction;
+    InputAction _pauseAction;
     Vector3Int _gridPosition;
 
     bool _completedTriggered;
 
-    void Start()
+    void Awake()
     {
         _moveAction = InputSystem.actions.FindAction("Move");
         _moveAction.started += Move;
+
+        _pauseAction = InputSystem.actions.FindAction("Pause");
+        _pauseAction.started += PauseHandler;
+    }
+
+    void OnEnable()
+    {
+        _moveAction.Enable();
+        _pauseAction.Enable();
+    }
+
+    void OnDisable()
+    {
+        _moveAction.Disable();
+        _pauseAction.Disable();
     }
 
     public void Initialize(Vector3Int startingPosition)
@@ -118,5 +135,10 @@ public class Player : MonoBehaviour
     {
         yield return new WaitForSeconds(1.0f);
         _isMoving = false;
+    }
+
+    void PauseHandler(InputAction.CallbackContext ctx)
+    {
+        OnPause?.Invoke();
     }
 }

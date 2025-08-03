@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 public class GameManager : MonoBehaviour
 {
@@ -11,29 +10,77 @@ public class GameManager : MonoBehaviour
     public ScreenShake screenShake;
     public float shakeDuration;
     public float shakeMagnitude;
+    public CanvasManager canvasManager;
 
     int _currentStageIndex = 0;
     int _currentLoopIndex = 0;
-    
-    InputAction _resetInput;
+
+    bool _firstTime = true;
 
     void Awake()
     {
         AudioManager.instance.Initialize();
-        AudioManager.instance.PlayGameMusic();
 
-        ShowStage(_currentStageIndex, _currentLoopIndex);
+        canvasManager.Initialize();
+        canvasManager.pauseScreen.OnContinue += ContinueHandler;
+        canvasManager.pauseScreen.OnExit += ExitGameHandler;
+
+        foreach (var stage in stages)
+        {
+            stage.SaveOriginalBoxPositions();
+        }
 
         player.OnExitRoom += ExitRoomHandler;
+        player.OnPause += PauseHandler;
         gridManager.OnGridCompleted += GridCompletedHandler;
-        
-        _resetInput = InputSystem.actions.FindAction("Reset");
-        _resetInput.started += OnResetHandler;
+
+        canvasManager.OnResetStage += OnResetStageHandler;
+        canvasManager.OnResetGame += OnRestartGameHandler;
+
+        ShowPauseScreen();
+    }
+
+    void ShowPauseScreen()
+    {
+        AudioManager.instance.PlayUIMusic();
+        canvasManager.ShowPauseScreen();
+
+        HideAllStages();
+        player.gameObject.SetActive(false);
+    }
+
+    void ShowGameScreen()
+    {
+        AudioManager.instance.PlayGameMusic();
+        canvasManager.ShowGameScreen();
+
+        if (_firstTime)
+        {
+            _firstTime = false;
+            ShowStage(_currentStageIndex, _currentLoopIndex);
+        }
+        else
+        {
+            var stage = stages[_currentStageIndex];
+            stage.gameObject.SetActive(true);
+
+            player.gameObject.SetActive(true);
+        }
+    }
+
+    void ShowYouWinScreen()
+    {
+        HideAllStages();
+        player.gameObject.SetActive(false);
+
+        canvasManager.ShowYouWinScreen();
     }
 
     void ShowStage(int stageIndex, int loopIndex)
     {
         HideAllStages();
+        player.gameObject.SetActive(true);
+
         var stage = stages[stageIndex];
         stage.gameObject.SetActive(true);
 
@@ -58,6 +105,19 @@ public class GameManager : MonoBehaviour
 
         gridManager.Reset();
         player.Initialize(gridManager.enterDoor.playerStartPosition);
+    }
+
+    void RestartGame()
+    {
+        _currentStageIndex = 0;
+        _currentLoopIndex = 0;
+
+        foreach (var stage in stages)
+        {
+            stage.ResetAllBoxes();
+        }
+
+        ShowStage(_currentStageIndex, _currentLoopIndex);
     }
 
     void GridCompletedHandler()
@@ -89,11 +149,39 @@ public class GameManager : MonoBehaviour
         _currentLoopIndex = _currentStageIndex == 0 ? _currentLoopIndex + 1 : _currentLoopIndex;
 
         Debug.Log($"{_currentStageIndex}_{_currentLoopIndex}");
-        ShowStage(_currentStageIndex, _currentLoopIndex);
+
+        if (_currentLoopIndex >= 3)
+        {
+            ShowYouWinScreen();
+        }
+        else
+        {
+            ShowStage(_currentStageIndex, _currentLoopIndex);
+        }
     }
 
-    void OnResetHandler(InputAction.CallbackContext obj)
+    void OnResetStageHandler()
     {
         RestartStage();
+    }
+
+    void OnRestartGameHandler()
+    {
+        RestartGame();
+    }
+
+    void ContinueHandler()
+    {
+        ShowGameScreen();
+    }
+
+    void ExitGameHandler()
+    {
+        Application.Quit();
+    }
+
+    void PauseHandler()
+    {
+        ShowPauseScreen();
     }
 }
