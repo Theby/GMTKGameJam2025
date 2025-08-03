@@ -1,2 +1,19 @@
 # GMTKGameJam2025
 Game for the GMTK Game Jam 2025 https://itch.io/jam/gmtk-2025
+
+# Resources Used
+SFXs
+https://pro.sfxr.me
+https://www.bfxr.net
+
+Music
+https://www.beepbox.co/#9n31s4k2l00e0ft1Ua7g0fj07r1i0o432T5v1ud2f10k8q83231d23HU0000000000000h0E0T5v1u05f60m92hc1ea2k02f30req83431d37H_QiBy9asq99900h0E0T1v3u82f0q8x10l511d03AcFfB7Q0245P7788E2b27iT4v1uf0f0q011z6666ji8k8k3jSBKSJJAArriiiiii07JCABrzrrrrrrr00YrkqHrsrrrrjr005zrAqzrjzrrqr1jRjrqGGrrzsrsA099ijrABJJJIAzrrtirqrqjqixzsrAjrqjiqaqqysttAJqjikikrizrHtBJJAzArzrIsRCITKSS099ijrAJS____Qg99habbCAYrDzh00E0b0g4102d50g4i4x8icPci4x4h4h4x8N4h4h4h4z4k4h4p24JDyWpuFaKCEmCjRayeIQqGyeEmAm55AieEOZozJ5G5HJG5GJjTZohFBZ5G5jN-WkVgJwKNgbgbkbpgbgbhibIohVll0JwJwJh7jhWy0I8XrayeSGILLLG4zjhUk0hMtxuVE-VEzFH2Zd7Vl8sJ9ghUDkhRBXSzYCL8Z-Ye3QVEOWtQOWcMOWJQOVQ-MsS5dWfMQGCQuLcG9EBdHY0FEP1vihM2pg8FOOewLG8Wt0LH8WIIFF5E5E5Eamqczidd6pO9p17ohRIOC8BeqhQ5Zp7jE5Zx7lNxjBAt1vlNi3Sz8C_0
+
+Art
+https://kenney.nl/assets/1-bit-pack
+https://strelly.itch.io/generic-controller-pixel-art-prompts
+https://f3l1p3-5.itch.io/pixel-keyboard-buttons-for-ui
+
+Fonts
+https://opengameart.org/content/pixtura12-medieval-pixel-font
+https://not-jam.itch.io/not-jam-blackletter-13
