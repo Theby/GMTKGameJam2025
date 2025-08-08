@@ -22757,7 +22757,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: colored-transparent_packed_868
+      name: colored-transparent_1
       rect:
         serializedVersion: 2
         x: 576
@@ -22779,7 +22779,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: colored-transparent_packed_869
+      name: colored-transparent_2
       rect:
         serializedVersion: 2
         x: 592
@@ -22801,7 +22801,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: colored-transparent_packed_870
+      name: colored-transparent_3
       rect:
         serializedVersion: 2
         x: 608
@@ -22955,7 +22955,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: colored-transparent_packed_877
+      name: colored-transparent_twopoints
       rect:
         serializedVersion: 2
         x: 720
@@ -27370,6 +27370,9 @@ TextureImporter:
       - key: SpriteEditor.SliceSettings
         value: '{"sliceOnImport":false,"gridCellCount":{"x":49.0,"y":22.0},"gridSpriteSize":{"x":16.0,"y":16.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
+      colored-transparent_1: -2108263258
+      colored-transparent_2: 402950751
+      colored-transparent_3: -893033531
       colored-transparent_packed_0: 665551386
       colored-transparent_packed_1: 113749822
       colored-transparent_packed_10: 200513475
@@ -28301,17 +28304,13 @@ TextureImporter:
       colored-transparent_packed_865: 855417938
       colored-transparent_packed_866: 2137712572
       colored-transparent_packed_867: 179154489
-      colored-transparent_packed_868: -2108263258
-      colored-transparent_packed_869: 402950751
       colored-transparent_packed_87: -1151141377
-      colored-transparent_packed_870: -893033531
       colored-transparent_packed_871: -1746602360
       colored-transparent_packed_872: -1710684068
       colored-transparent_packed_873: 166438555
       colored-transparent_packed_874: 668432232
       colored-transparent_packed_875: 470045257
       colored-transparent_packed_876: -2125160735
-      colored-transparent_packed_877: -332434221
       colored-transparent_packed_878: 730207777
       colored-transparent_packed_879: -827707261
       colored-transparent_packed_88: 1219249073
@@ -28447,6 +28446,7 @@ TextureImporter:
       colored-transparent_packed_997: 33748234
       colored-transparent_packed_998: 2121075112
       colored-transparent_packed_999: -1941104534
+      colored-transparent_twopoints: -332434221
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

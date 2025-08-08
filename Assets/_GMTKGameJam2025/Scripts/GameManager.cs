@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
     public float shakeDuration;
     public float shakeMagnitude;
     public CanvasManager canvasManager;
+    public Renderer bgRenderer;
+    public Vector2 scrollSpeed;
 
     int _currentStageIndex = 0;
     int _currentLoopIndex = 0;
@@ -38,6 +40,14 @@ public class GameManager : MonoBehaviour
         canvasManager.OnResetGame += OnRestartGameHandler;
 
         ShowPauseScreen();
+    }
+
+    void Update()
+    {
+        float offsetX = Time.time * scrollSpeed.x;
+        float offsetY = Time.time * scrollSpeed.y;
+
+        bgRenderer.material.mainTextureOffset = new Vector2(offsetX, offsetY);
     }
 
     void ShowPauseScreen()
@@ -88,6 +98,8 @@ public class GameManager : MonoBehaviour
         gridManager.Initialize(stage, loopIndex);
 
         player.Initialize(gridManager.enterDoor.playerStartPosition);
+
+        canvasManager.UpdateStageUI(_currentStageIndex, _currentLoopIndex);
     }
 
     void HideAllStages()

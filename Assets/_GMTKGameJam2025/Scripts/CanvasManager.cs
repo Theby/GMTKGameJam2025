@@ -16,6 +16,7 @@ public class CanvasManager : MonoBehaviour
     public TextMeshProUGUI resetStageText;
     public Image resetGameImage;
     public TextMeshProUGUI resetGameText;
+    public TextMeshProUGUI stageCounter;
 
     public event Action OnResetStage;
     public event Action OnResetGame;
@@ -77,6 +78,11 @@ public class CanvasManager : MonoBehaviour
     {
         HideAllScreens();
         gameScreen.SetActive(true);
+    }
+
+    public void UpdateStageUI(int stageIndex, int loopIndex)
+    {
+        stageCounter.SetText($"{stageIndex + 1}-{loopIndex + 1}");
     }
 
     void HideAllScreens()
