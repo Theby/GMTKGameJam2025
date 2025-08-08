@@ -148,8 +148,6 @@ public class GameManager : MonoBehaviour
         _currentStageIndex %= stages.Count;
         _currentLoopIndex = _currentStageIndex == 0 ? _currentLoopIndex + 1 : _currentLoopIndex;
 
-        Debug.Log($"{_currentStageIndex}_{_currentLoopIndex}");
-
         if (_currentLoopIndex >= 3)
         {
             ShowYouWinScreen();

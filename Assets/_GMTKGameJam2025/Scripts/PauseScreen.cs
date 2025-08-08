@@ -42,7 +42,7 @@ public class PauseScreen : MonoBehaviour
     public void Initialize()
     {
         _selectorIndex = 0;
-        SetSelector(_selectorIndex);
+        _selectorIndex = SetSelector(_selectorIndex);
     }
 
     void Move(InputAction.CallbackContext ctx)
@@ -59,13 +59,15 @@ public class PauseScreen : MonoBehaviour
             AudioManager.instance.MoveUISfx();
         }
 
-        SetSelector(_selectorIndex);
+        _selectorIndex = SetSelector(_selectorIndex);
     }
 
-    void SetSelector(int index)
+    int SetSelector(int index)
     {
         index = Mathf.Clamp(index, 0, buttonsSelectPosition.Count - 1);
         selector.position = buttonsSelectPosition[index].position;
+
+        return index;
     }
 
     void Select(InputAction.CallbackContext ctx)
